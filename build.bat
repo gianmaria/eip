@@ -16,6 +16,6 @@ cl ..\eip.cpp ^
 /Gm- /GL ^
 /external:anglebrackets /analyze:external- /external:W0 ^
 /utf-8 ^
-/link /SUBSYSTEM:CONSOLE
+/link /SUBSYSTEM:CONSOLE /DEBUG 
 
 popd
