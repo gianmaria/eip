@@ -3,10 +3,12 @@
 if not exist "build/" (
     mkdir build
 )
+echo [INFO] Release build
 
 pushd build
 
 cl ..\eip.cpp ^
+/nologo ^
 /std:c++latest ^
 /D "NDEBUG" /D "_CONSOLE" /D "_UNICODE" /D "UNICODE" ^
 /Wall ^
